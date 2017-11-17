@@ -48,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Week1\Find-the-next-perfect-square!-7-kyu\NextPerfectSquare.cs" />
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
