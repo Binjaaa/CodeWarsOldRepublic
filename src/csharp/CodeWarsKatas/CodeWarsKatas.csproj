@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,10 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\Algorithms\**\*.txt">
-        <Link>Algorithms\%(RecursiveDir)%(FileName)</Link>
+      <Link>Algorithms\%(RecursiveDir)%(FileName)</Link>
     </None>
     <None Include="..\..\..\DataStructure\**\*.txt">
-        <Link>DataStructure\%(RecursiveDir)%(FileName)</Link>
+      <Link>DataStructure\%(RecursiveDir)%(FileName)</Link>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
