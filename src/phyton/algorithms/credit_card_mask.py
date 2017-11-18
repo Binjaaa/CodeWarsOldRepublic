@@ -1,12 +1,7 @@
 # return masked string
 def maskify(cc):
     length = len(cc)
-    if length < 4:
-        return cc
-    else:
-        return ((length-4)*"#") + cc[(length-4):]
-
-
+    return ((length-4)*"#") + cc[-4:]
 
 # Example:
 #maskify("4556364607935616") == "############5616"
