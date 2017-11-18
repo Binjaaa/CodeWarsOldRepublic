@@ -17,9 +17,9 @@ namespace CodeWarsKatas.DataStructure.Week1
 
             var list = new List<double>(signature);
 
-            for (int i = signature.Length + 1; i <= n; i++)
+            for (int i = signature.Length; i < n; i++)
             {
-                list.Add(list[i - 4] + list[i - 3] + list[i - 2]);
+                list.Add(list[i - 3] + list[i - 2] + list[i - 1]);
             }
 
             return list.ToArray();
