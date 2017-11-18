@@ -46,6 +46,10 @@
     <Compile Include="Algorithms\Week1\Credit-Card-Mask-7-kyu\CreditCardMask.cs" />
     <Compile Include="Algorithms\Week1\Square-Every-Digit-7-kyu\SquareEveryDigitImplementation.cs" />
     <Compile Include="Algorithms\Week1\Sum-of-odd-numbers-7-kyu\SumOfOddNumbersImpl.cs" />
+    <Compile Include="DataStructure\Week1\List-Filtering-7-kyu\ListFiltering.cs" />
+    <Compile Include="DataStructure\Week1\Remove-the-minimum-7-kyu\RemoveMinimum.cs" />
+    <Compile Include="DataStructure\Week1\Sum-of-odd-numbers-7-kyu\SumOfOddNumbers.cs" />
+    <Compile Include="DataStructure\Week1\Tribonacci-Sequence-6-kyu\TribonacciImpl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
