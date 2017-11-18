@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
-namespace CodeWarsKatas.Algorithms.Week1.Sum_of_odd_numbers_7_kyu
+namespace CodeWarsKatas.Algorithms.Week1
 {
     internal class SumOfOddNumbersImpl
     {
@@ -17,6 +13,6 @@ namespace CodeWarsKatas.Algorithms.Week1.Sum_of_odd_numbers_7_kyu
                 .OrderByDescending(x => x.Length)
                 .Select(x => int.Parse(x.Value))
                 .Max();
-        } 
+        }
     }
 }

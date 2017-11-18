@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CodeWarsKatas.Algorithms.Week1.Square_Every_Digit_7_kyu
+namespace CodeWarsKatas.Algorithms.Week1
 {
     internal class SquareEveryDigitImplementation
     {
