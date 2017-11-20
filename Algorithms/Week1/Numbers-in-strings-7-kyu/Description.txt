@@ -1,4 +1,4 @@
-7 kyu Sum of odd numbers
+7 kyu Numbers-in-strings
 ------------------------
 
 https://www.codewars.com/kata/numbers-in-strings
