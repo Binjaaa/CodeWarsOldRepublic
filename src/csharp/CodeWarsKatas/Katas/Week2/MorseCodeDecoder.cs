@@ -16,6 +16,7 @@ namespace CodeWarsKatas.Katas.Week2
         }
     }
 
+    //Mocking codewars dependency
     internal class MorseCode
     {
         public static string Get(string morse)

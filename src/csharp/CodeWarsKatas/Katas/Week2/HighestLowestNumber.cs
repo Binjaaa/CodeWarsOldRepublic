@@ -8,7 +8,7 @@ namespace CodeWarsKatas.Katas.Week2
         {
             var nums = numbers
                 .Split(' ')
-                .Select(n => int.Parse(n));
+                .Select(int.Parse);
 
             return $"{nums.Max()} {nums.Min()}";
         }
