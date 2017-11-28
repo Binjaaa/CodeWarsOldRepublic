@@ -51,6 +51,7 @@
     <Compile Include="Katas\Week1\SumOfOddNumbers.cs" />
     <Compile Include="Katas\Week1\SumOfOddNumbersImpl.cs" />
     <Compile Include="Katas\Week1\TribonacciImpl.cs" />
+    <Compile Include="Katas\Week2\CheckingGroups.cs" />
     <Compile Include="Katas\Week2\DeleteNthOccurence.cs" />
     <Compile Include="Katas\Week2\HighestLowestNumber.cs" />
     <Compile Include="Katas\Week2\MorseCodeDecoder.cs" />
