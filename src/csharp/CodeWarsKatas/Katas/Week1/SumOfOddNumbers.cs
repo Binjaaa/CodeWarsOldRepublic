@@ -1,4 +1,4 @@
-﻿namespace CodeWarsKatas.DataStructure.Week1
+﻿namespace  CodeWarsKatas.Katas.Weel1
 {
     internal class SumOfOddNumbers
     {

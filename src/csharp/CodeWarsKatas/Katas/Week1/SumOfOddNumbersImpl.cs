@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace CodeWarsKatas.Algorithms.Week1
+namespace  CodeWarsKatas.Katas.Weel1
 {
     internal class SumOfOddNumbersImpl
     {

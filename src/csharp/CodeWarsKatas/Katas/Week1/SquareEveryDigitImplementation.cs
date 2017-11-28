@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace CodeWarsKatas.Algorithms.Week1
+namespace  CodeWarsKatas.Katas.Weel1
 {
     internal class SquareEveryDigitImplementation
     {
