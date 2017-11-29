@@ -57,6 +57,8 @@
     <Compile Include="Katas\Week2\MorseCodeDecoder.cs" />
     <Compile Include="Katas\Week2\MultiplesOf3Or5.cs" />
     <Compile Include="Katas\Week2\WhichAreIn.cs" />
+    <Compile Include="Katas\Week3\Node.cs" />
+    <Compile Include="Katas\Week3\NodeMethods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
