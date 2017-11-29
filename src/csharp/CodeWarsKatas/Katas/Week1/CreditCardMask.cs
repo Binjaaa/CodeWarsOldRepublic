@@ -1,4 +1,4 @@
-﻿namespace CodeWarsKatas.Algorithms.Week1
+﻿namespace CodeWarsKatas.Katas.Week1
 {
     internal class CreditCardMask
     {

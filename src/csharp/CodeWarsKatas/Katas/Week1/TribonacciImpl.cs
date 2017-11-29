@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace CodeWarsKatas.DataStructure.Week1
+namespace CodeWarsKatas.Katas.Week1
 {
     internal class TribonacciImpl
     {
