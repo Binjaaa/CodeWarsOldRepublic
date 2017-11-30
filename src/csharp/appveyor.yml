@@ -4,4 +4,7 @@ pull_requests:
 skip_tags: true
 image: Visual Studio 2017
 build_script:
-- cmd: ./src/csharp/build.cmd
+- cmd: >-
+    cd src\csharp\
+
+    build.cmd
