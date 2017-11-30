@@ -1,0 +1,14 @@
+image: Visual Studio 2017
+
+branches:
+  only:
+    - master
+clone_depth: 1
+skip_tags: true
+
+build_script:
+  - cmd: build.cmd
+test: off
+
+cache:
+  - .fake -> build.fsx
