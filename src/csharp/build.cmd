@@ -4,7 +4,9 @@ cls
 set mypath=%cd%
 @echo %mypath%
 
-".paket\paket.exe" restore
+dir
+
+.paket\paket.exe restore
 if errorlevel 1 (
   exit /b %errorlevel%
 )
