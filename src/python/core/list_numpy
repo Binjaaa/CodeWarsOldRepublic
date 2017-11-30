@@ -1,0 +1,13 @@
+import numpy as np
+def output_numbers(n):
+    print "-> n: ", n
+    first_tuple = range(0, 10, 2)
+    print "-> first_tuple: ", first_tuple
+    # second_tuple = (np.empty(n)).fill(1)
+    third_tuple = np.empty(n)
+    third_tuple.fill(1)
+    # print "-> second_tuple: ", second_tuple
+    print "-> third_tuple: ", third_tuple
+
+if __name__== "__main__":
+    output_numbers(5)
