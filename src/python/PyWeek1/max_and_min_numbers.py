@@ -1,7 +1,6 @@
 def high_and_low(numbers):
     splitNumbers = [int(n) for n in numbers.split()]
-    result = str(max(splitNumbers)) + " " + str(min(splitNumbers))
-    return result
+    return str(max(splitNumbers)) + " " + str(min(splitNumbers))
 
 
 
