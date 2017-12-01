@@ -29,6 +29,34 @@ namespace CodeWarsKatas.Katas.Week3
             return newHead;
         }
 
+        public static int Length(Node head)
+        {
+            if (head == null)
+                return 0;
+
+            return head.Next == null ? 1 : Length(head.Next) + 1;
+        }
+
+        public static int Count(Node head, Predicate<int> func)
+        {
+            if (head == null)
+                return 0;
+
+            var count = 0;
+            var currentNode = head;
+
+            do
+            {
+                if (func(currentNode.Data))
+                    count++;
+
+                currentNode = currentNode.Next;
+
+            } while (currentNode != null);
+
+            return count;
+        }
+
         public static Node BuildOneTwoThree()
         {
             var n2 = Push(new Node(3), 2);
@@ -44,7 +72,7 @@ namespace CodeWarsKatas.Katas.Week3
             if (index == 0)
                 return new Node(data) { Next = head };
 
-            if (index < 0 || index > head.Length())
+            if (index < 0 || index > Length(head))
                 throw new ArgumentOutOfRangeException(nameof(index));
 
             var i = 0;
@@ -59,6 +87,33 @@ namespace CodeWarsKatas.Katas.Week3
 
 
             return head;
+        }
+
+        public static Node GetNth(Node node, int index)
+        {
+            if (node == null || Length(node) == 0)
+                throw new ArgumentException(nameof(node));
+
+            if (index < 0 || index >= Length(node))
+                throw new ArgumentException(nameof(index));
+
+            var i = 0;
+            var currentNode = node;
+
+            while (i++ <= index - 1)
+            {
+                currentNode = currentNode.Next;
+            }
+
+            return currentNode;
+        }
+
+
+        public static string Stringify(Node list)
+        {
+            return list == null 
+                ? "null" 
+                : $"{list.Data} -> " + Stringify(list?.Next);
         }
     }
 }
