@@ -1,0 +1,10 @@
+version: 1.0.{build}
+pull_requests:
+  do_not_increment_build_number: true
+skip_tags: true
+image: Visual Studio 2017
+build_script:
+- cmd: >-
+    cd src\csharp\
+
+    build.cmd
