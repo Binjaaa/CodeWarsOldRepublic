@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Katas\LogHelper.cs" />
     <Compile Include="Katas\Week1\CreditCardMask.cs" />
     <Compile Include="Katas\Week1\ListFiltering.cs" />
     <Compile Include="Katas\Week1\NextPerfectSquare.cs" />
@@ -57,6 +58,8 @@
     <Compile Include="Katas\Week2\MorseCodeDecoder.cs" />
     <Compile Include="Katas\Week2\MultiplesOf3Or5.cs" />
     <Compile Include="Katas\Week2\WhichAreIn.cs" />
+    <Compile Include="Katas\Week4\AreTheyTheSame.cs" />
+    <Compile Include="Katas\Week4\IrreducibleSumOfRationals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
