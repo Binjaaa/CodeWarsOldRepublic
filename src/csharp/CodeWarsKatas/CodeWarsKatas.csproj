@@ -60,6 +60,7 @@
     <Compile Include="Katas\Week2\WhichAreIn.cs" />
     <Compile Include="Katas\Week4\AreTheyTheSame.cs" />
     <Compile Include="Katas\Week4\IrreducibleSumOfRationals.cs" />
+    <Compile Include="Katas\Week4\PascalCaseToSnake.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
